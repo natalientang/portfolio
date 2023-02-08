@@ -1,16 +1,16 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Natalie Tang",
+      "titles": ["Full-Stack Software Engineer", "UX/UI Designer"],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/natalientang",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
+          "url": "https://www.instagram.com/natalientang",
           "class": "fab fa-instagram"
         }
       ],
