@@ -90,6 +90,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
+        <img src={require("../images/totoro-walk.gif")} className="moving-gif"/>
       </header>
     );
   }

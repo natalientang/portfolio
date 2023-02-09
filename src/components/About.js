@@ -11,7 +11,6 @@ class About extends Component {
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
 
@@ -26,25 +25,16 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                     height="210px"
+                    width="200px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
+                  <img src={require("../images/polaroid-writing.png")} width="170px" className="mt-4 mx-auto" />
                 </span>
               </div>
             </div>
+
 
             <div className="col-md-8 center">
               <div className="col-md-10">
@@ -69,17 +59,14 @@ class About extends Component {
                     ></span>
                   </div>
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body font-montserrat text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
                       fontSize: "132%",
                       lineHeight: "200%",
                     }}
                   >
-                    <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
+
                     {about}
                   </div>
                 </div>
