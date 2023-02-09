@@ -53,6 +53,11 @@ body[data-theme="dark"] {
       }
    }
 
+   .polaroid-about-me {
+      font: 30px/24px 'Polaroid', sans-serif;
+      color: white;
+   }
+
    #portfolio {
       background: #5b5b5b;
       .section-title {
@@ -103,5 +108,38 @@ body[data-theme="dark"] {
 
    .close-icon {
       color: white;
+   }
+
+   #skills {
+      background-color: #7F7F7F;
+      .section-title {
+         color: white !important;
+      }
+   }
+
+   .skills-tile {
+      background-color:#767676;
+      padding: 10px 10px 5px 10px;
+      width: 100px;
+      margin: 5px 0 5px 0;
+      border-radius: 8px;
+   }
+
+   .skill-icon {
+      font-size: 180%;
+      color: #D2D2D2;
+      text-align: center;
+      position: relative;
+   }
+
+   footer {
+      background: #7F7F7F;
+      min-height: 100px;
+      width: 100%;
+      overflow: hidden;
+      font-size: 14px;
+      color: white;
+      position: relative;
+      text-align: center;
    }
 }
