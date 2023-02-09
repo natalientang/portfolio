@@ -1,6 +1,6 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Ubuntu+Mono&display=swap');
 
 
 html {
@@ -112,8 +112,9 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #f6f5f0;
 	overflow: hidden;
+
 }
 
 #about h1 {
@@ -209,7 +210,7 @@ header h1 {
 }
 
 .font-montserrat {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #preview {
@@ -227,7 +228,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #EFE1BD;
 }
 
 .experience-icon {
@@ -349,7 +350,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #d8d8c9;
 	padding-bottom: 5%;
 }
 
@@ -385,7 +386,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #202020;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;

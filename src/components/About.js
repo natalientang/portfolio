@@ -25,16 +25,37 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                     height="210px"
+                    height="210px"
                     width="200px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <img src={require("../images/polaroid-writing.png")} width="170px" className="mt-4 mx-auto" />
+                  <img
+                    src={require("../images/polaroid-writing.png")}
+                    width="170px"
+                    className="mt-4 mx-auto"
+                  />
                 </span>
+                <div className="tape-top">
+                  <img
+                    src={require("../images/grey-tape.png")}
+                    className="position-absolute"
+                    width="70px"
+                    style={{ top: 35, left: 50 }}
+                    alt="Tape"
+                  />
+                </div>
+                <div className="tape-bottom">
+                  <img
+                    src={require("../images/grey-tape.png")}
+                    className="position-absolute"
+                    width="70px"
+                    style={{ bottom: 10, right: 50 }}
+                    alt="Tape"
+                  />
+                </div>
               </div>
             </div>
-
 
             <div className="col-md-8 center">
               <div className="col-md-10">
@@ -66,7 +87,6 @@ class About extends Component {
                       lineHeight: "200%",
                     }}
                   >
-
                     {about}
                   </div>
                 </div>
