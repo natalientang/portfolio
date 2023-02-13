@@ -110,37 +110,33 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Main Dentistry",
+        "title": "Registered Dental Assistant (RDA)",
+        "years": "Jun 2022 - Jul 2022",
+        "icon": "fas fa-tooth",
         "mainTech": [
-          "Angular 8/9/10"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Infinity Dental",
+        "title": "Front Office Receptionist, RDA",
+        "years": "Dec 2020 - Jan 2022",
+        "icon": "fas fa-toothbrush",
         "mainTech": [
-          "Angular 7/8"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "Kirin Court Restaurant",
+        "title": "Sales Associate, Host",
+        "years": "Jul 2018 - Jan 2021",
+        "icon": "fas fa-utensils",
+        "mainTech": [
+        ],
+        "technologies": [
         ]
       }
     ]

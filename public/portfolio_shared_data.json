@@ -12,6 +12,11 @@
           "name": "instagram",
           "url": "https://www.instagram.com/natalientang",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "twitter",
+          "url": "https://www.twitter.com/natalientang",
+          "class": "fab fa-twitter"
         }
       ],
       "image": "profile.jpg"

@@ -265,6 +265,19 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	font: 25px/25px 'Polaroid', sans-serif;
+	font-size: 20px !important;
+
+}
+
+.vertical-timeline-element-title {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.vertical-timeline-element-subtitle {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -407,7 +420,7 @@ header h1 {
 	font-family: 'Ubuntu Mono', monospace;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: #F8F8F8;
 	text-align: center;
 }
 
@@ -424,24 +437,24 @@ footer {
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: #F8F8F8;
 	position: relative;
 	text-align: center;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: #F8F8F8;
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: #F8F8F8;
 }
 
 .social-links {
 	margin-top: 50px;
-	font-size: 22px;
+	font-size: 25px;
 }
 
 .tape-image {
