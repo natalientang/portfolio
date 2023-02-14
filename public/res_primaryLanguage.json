@@ -71,7 +71,7 @@
           "images/portfolio/platemate/eat.png"
         ],
         "github": "https://gitlab.com/team-4-hack-n-snack/platemate",
-        "live": "https://gitlab.com/team-4-hack-n-snack/platemate",
+        "live": "https://team-4-hack-n-snack.gitlab.io/platemate/",
         "technologies": [
           {
             "class": "devicon-postgresql-plain",
