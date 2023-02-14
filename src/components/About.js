@@ -53,7 +53,7 @@ class About extends Component {
               <div className="col-md-10">
                 <div className="card">
                   <div
-                    className="card-body font-montserrat text-justify ml-3 mr-3"
+                    className="card-body font-montserrat text-center ml-3 mr-3"
                     style={{
                       height: "auto",
                       fontSize: "132%",

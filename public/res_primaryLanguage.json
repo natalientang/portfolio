@@ -11,60 +11,6 @@
     },
     "projects": [
       {
-        "title": "Task Manager",
-        "description": "Built a functional web application using Python and Django that allows for CRUD operations on data stored in a SQL database. The application features user-centered components such as login, logout, and signup, all implemented using HTML templates, views, models, and apps. The design of the application was also enhanced using HTML5 and CSS to provide an improved user experience.",
-        "images": [
-          "images/portfolio/task-manager/to-do-list.png"
-        ],
-        "github": "https://github.com/natalientang/task-manager",
-        "live": "https://github.com/natalientang/task-manager",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS"
-          },
-          {
-            "class": "devicon-python-plain",
-            "name": "Python"
-          },
-          {
-            "class": "devicon-django-plain",
-            "name": "Django"
-          },
-          {
-            "class": "devicon-sqlite-plain",
-            "name": "SQLite3"
-          }
-        ]
-      },
-      {
-        "title": "CarCar",
-        "description": "Used PostgreSQL, Django, React, and JSX to develop a web application for managing car services, sales, and inventory. The application includes the implementation and deployment of a microservice that allows users to create and view services. The microservices were integrated with RESTful APIs, which were then utilized in the development of a React-based front-end for the application.",
-        "images": [
-          "images/portfolio/car-car/car.png"
-        ],
-        "github": "https://github.com/natalientang/car-car",
-        "live": "https://github.com/natalientang/car-car",
-        "technologies": [
-          {
-            "class": "devicon-postgresql-plain",
-            "name": "PostgreSQL"
-          },
-          {
-            "class": "devicon-django-plain",
-            "name": "Django"
-          },
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          }
-        ]
-      },
-      {
         "title": "PlateMate",
         "description": "Developed a Yelp-like application using a combination of PostgreSQL, Django, React, JSX, and Tailwind. The application includes a questionnaire feature for users, as well as integration with the YelpAPI for filtering options. Data retrieval and creation are handled using FastAPI and MySQL, with authorization and authentication implemented to secure the application.",
         "images": [
@@ -104,6 +50,60 @@
           {
             "class": "devicon-fastapi-plain",
             "name": "FastAPI"
+          }
+        ]
+      },
+      {
+        "title": "CarCar",
+        "description": "Used PostgreSQL, Django, React, and JSX to develop a web application for managing car services, sales, and inventory. The application includes the implementation and deployment of a microservice that allows users to create and view services. The microservices were integrated with RESTful APIs, which were then utilized in the development of a React-based front-end for the application.",
+        "images": [
+          "images/portfolio/car-car/car.png"
+        ],
+        "github": "https://github.com/natalientang/car-car",
+        "live": "https://github.com/natalientang/car-car",
+        "technologies": [
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Task Manager",
+        "description": "Built a functional web application using Python and Django that allows for CRUD operations on data stored in a SQL database. The application features user-centered components such as login, logout, and signup, all implemented using HTML templates, views, models, and apps. The design of the application was also enhanced using HTML5 and CSS to provide an improved user experience.",
+        "images": [
+          "images/portfolio/task-manager/to-do-list.png"
+        ],
+        "github": "https://github.com/natalientang/task-manager",
+        "live": "https://github.com/natalientang/task-manager",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-sqlite-plain",
+            "name": "SQLite3"
           }
         ]
       }
