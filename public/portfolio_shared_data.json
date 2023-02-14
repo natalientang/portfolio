@@ -9,6 +9,11 @@
           "class": "fab fa-github"
         },
         {
+          "name": "email",
+          "url": "mailto:natalietang77@gmail.com",
+          "class": "fas fa-envelope"
+          },
+        {
           "name": "instagram",
           "url": "https://www.instagram.com/natalientang",
           "class": "fab fa-instagram"

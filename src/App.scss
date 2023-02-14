@@ -88,7 +88,6 @@ header h1 {
 #about {
 	background: #f6f5f0;
 	overflow: hidden;
-
 }
 
 #about h1 {
@@ -98,6 +97,23 @@ header h1 {
 	letter-spacing: 3px;
 	color: black;
 	text-align: center;
+}
+
+.resume-button {
+    background-color: #C7B29F;
+    color: black;
+    padding: 10px 20px;
+	border: none;
+    border-radius: 6px;
+    cursor: pointer;
+	font-size: 15px;
+	transition: background-color 0.2s ease-in-out;
+	font: 25px/25px 'Polaroid', sans-serif;
+
+  }
+
+.resume-button:hover {
+	background-color: #9f8b7a;
 }
 
 .foto img {

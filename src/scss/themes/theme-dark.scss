@@ -1,145 +1,180 @@
 body[data-theme="dark"] {
+  @import "/src/scss/dark-slider.scss";
 
-   @import '../src/scss/dark-slider.scss';
+  .slider-tab {
+    background-color: #8c8c8c;
+  }
 
-   .slider-tab {
-      background-color: #8C8C8C;
-   }
+  .title-styles {
+    color: white;
+  }
 
-   .title-styles {
+  .header-icon {
+    color: #3c342c;
+    opacity: 0.8;
+  }
+
+  .slider-image {
+    border: 5px solid #8c8c8c;
+  }
+
+  .language {
+    background-color: #494949;
+  }
+
+  .link-href {
+    color: white;
+  }
+
+  .project-date {
+    background-color: #918e97;
+    color: white;
+  }
+
+  header {
+    background-color: #494949;
+    h1 {
       color: white;
-   }
+    }
+  }
 
-   .header-icon {
-      color: #3C342C;
-      opacity: 0.8;
-   }
+  .resume-button {
+    background-color: #6d6d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.2s ease-in-out;
+    font: 25px/25px "Polaroid", sans-serif;
+  }
 
-   .slider-image {
-      border: 5px solid #8C8C8C;
-   }
+  .resume-button:hover {
+    background-color: #8c8c8c;
+  }
 
-   .language {
-      background-color: #494949;
-   }
-
-   .link-href {
+  #about {
+    background-color: #7f7f7f;
+    h1 span {
       color: white;
-   }
-
-   .project-date {
-      background-color: #918e97;
+    }
+    .polaroid span {
+      background: #6d6d6d;
+    }
+    .card {
+      background: #6d6d6d;
       color: white;
-   }
+    }
+  }
 
-   header {
-      background-color: #494949;
-      h1 {
-         color: white;
-      }
-   }
+  .polaroid-about-me {
+    font: 30px/24px "Polaroid", sans-serif;
+    color: white;
+  }
 
-   #about {
-      background-color: #7f7f7f;
-      h1 span {
-         color: white;
-      }
-      .polaroid span {
-         background:  #6d6d6d;
-      }
-      .card {
-         background: #6d6d6d;
-         color: white;
-      }
-   }
-
-   .polaroid-about-me {
-      font: 30px/24px 'Polaroid', sans-serif;
+  #portfolio {
+    background: #5b5b5b;
+    .section-title {
+      color: white !important;
+    }
+    .foto div {
+      background: #6d6d6d;
+    }
+    .project-title-settings {
       color: white;
-   }
+    }
+  }
 
-   #portfolio {
-      background: #5b5b5b;
-      .section-title {
-         color: white !important;
-      }
-      .foto div {
-         background: #6d6d6d;
-      }
-      .project-title-settings {
-         color: white;
-      }
-   }
+  .project-title-settings1 {
+    color: white;
+  }
 
-   #resume {
-      filter: brightness(80%);
-      background: #5b5b5b;
-      .section-title {
-         color: white !important;
-      }
+  #resume {
+    filter: brightness(80%);
+    background: #5b5b5b;
+    .section-title {
+      color: white !important;
+    }
 
-      .experience-badge {
-         background: #919191 !important;
-         color: white;
-      }
+    .experience-badge {
+      background: #919191 !important;
+      color: white;
+    }
 
-      .main-badge {
-         background: #919191 !important;
-      }
+    .main-badge {
+      background: #919191 !important;
+    }
 
+    .vertical-timeline-element-date {
+      color: white;
+    }
+
+    .vertical-timeline-element-icon {
+      background: #919191 !important;
+    }
+    @media only screen and (max-width: 1169px) {
       .vertical-timeline-element-date {
-         color: white;
+        color: black;
       }
+    }
+  }
 
-      .vertical-timeline-element-icon {
-         background: #919191 !important;
-      }
-      @media only screen and (max-width: 1169px) {
-         .vertical-timeline-element-date {
-            color: black;
-         }
-      }
-   }
+  .link-button {
+    background-color: #6d6d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.2s ease-in-out;
+    font: 25px/25px "Polaroid", sans-serif;
+  }
 
-   .modal-inside .modal-content {
-      background: #5b5b5b;
-      color: white;
-   }
+  .link-button:hover {
+    background-color: #8c8c8c;
+  }
 
-   .close-icon {
-      color: white;
-   }
+  .modal-inside .modal-content {
+    background: #5b5b5b;
+    color: white;
+  }
 
-   #skills {
-      background-color: #7F7F7F;
-      .section-title {
-         color: white !important;
-      }
-   }
+  .close-icon {
+    color: white;
+  }
 
-   .skills-tile {
-      background-color:#767676;
-      padding: 10px 10px 5px 10px;
-      width: 100px;
-      margin: 5px 0 5px 0;
-      border-radius: 8px;
-   }
+  #skills {
+    background-color: #7f7f7f;
+    .section-title {
+      color: white !important;
+    }
+  }
 
-   .skill-icon {
-      font-size: 180%;
-      color: #D2D2D2;
-      text-align: center;
-      position: relative;
-   }
+  .skills-tile {
+    background-color: #767676;
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    margin: 5px 0 5px 0;
+    border-radius: 8px;
+  }
 
-   footer {
-      background: #7F7F7F;
-      min-height: 100px;
-      width: 100%;
-      overflow: hidden;
-      font-size: 14px;
-      color: white;
-      position: relative;
-      text-align: center;
-   }
+  .skill-icon {
+    font-size: 180%;
+    color: #d2d2d2;
+    text-align: center;
+    position: relative;
+  }
+
+  footer {
+    background: #7f7f7f;
+    min-height: 100px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    text-align: center;
+  }
 }

@@ -52,25 +52,6 @@ class About extends Component {
             <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
                   <div
                     className="card-body font-montserrat text-justify ml-3 mr-3"
                     style={{
@@ -81,6 +62,11 @@ class About extends Component {
                   >
                     {about}
                   </div>
+                </div>
+                <div className="text-center mt-5">
+                  <a href={require("../resume/NatalieTangResume.pdf")} download>
+                    <button className="resume-button">Download Resume</button>
+                  </a>
                 </div>
               </div>
             </div>
