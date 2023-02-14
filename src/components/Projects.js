@@ -30,7 +30,7 @@ class Projects extends Component {
                 <div>
                   <img
                     src={projects.images[0]}
-                    className="mx-auto mt-5"
+                    className="project-image mx-auto mt-5"
                     alt="projectImages"
                     style={{ width: "50%", height: "auto" }}
                   />

@@ -90,6 +90,11 @@ body[data-theme="dark"] {
     color: white;
   }
 
+  .project-image {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+
   #resume {
     filter: brightness(80%);
     background: #5b5b5b;
@@ -177,4 +182,9 @@ body[data-theme="dark"] {
     position: relative;
     text-align: center;
   }
+
+  .tape-image {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    }
 }
