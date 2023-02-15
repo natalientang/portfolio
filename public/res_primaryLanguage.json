@@ -67,6 +67,18 @@
         "live": "",
         "technologies": [
           {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
             "class": "devicon-postgresql-plain",
             "name": "PostgreSQL"
           },
