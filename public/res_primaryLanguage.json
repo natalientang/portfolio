@@ -50,6 +50,10 @@
           {
             "class": "devicon-fastapi-plain",
             "name": "FastAPI"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
           }
         ]
       },
@@ -73,6 +77,10 @@
           {
             "class": "devicon-react-original",
             "name": "React"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
           }
         ]
       },
