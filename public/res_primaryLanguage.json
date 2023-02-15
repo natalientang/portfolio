@@ -60,7 +60,7 @@
           "images/portfolio/car-car/car.png"
         ],
         "github": "https://github.com/natalientang/car-car",
-        "live": "https://github.com/natalientang/car-car",
+        "live": "",
         "technologies": [
           {
             "class": "devicon-postgresql-plain",
@@ -83,7 +83,7 @@
           "images/portfolio/task-manager/to-do-list.png"
         ],
         "github": "https://github.com/natalientang/task-manager",
-        "live": "https://github.com/natalientang/task-manager",
+        "live": "",
         "technologies": [
           {
             "class": "devicon-html5-plain",
