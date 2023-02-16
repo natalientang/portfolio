@@ -48,7 +48,7 @@ class ProjectDetailsModal extends Component {
           <div className=" mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="col-md-10 mx-auto">
               <h1 className="project-title-settings1 text-center">{title}</h1>
-              <p className="modal-description font-montserrat">{description}</p>
+              <p className="modal-description font-montserrat text-center">{description}</p>
               <div className="col-md-12 text-center">
                 <p className="list-inline mx-auto">{tech}</p>
               </div>

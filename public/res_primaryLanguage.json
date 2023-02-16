@@ -12,7 +12,7 @@
     "projects": [
       {
         "title": "PlateMate",
-        "description": "Developed a Yelp-like application using a combination of PostgreSQL, Django, React, JSX, and Tailwind. The application includes a questionnaire feature for users, as well as integration with the YelpAPI for filtering options. Data retrieval and creation are handled using FastAPI and MySQL, with authorization and authentication implemented to secure the application.",
+        "description": "Created a Yelp-like application using the YelpAPI. It includes a filter function that allows users to narrow down restaurant choices based on a questionnaire. Each restaurant detail page displays important information such as reviews, location, and pictures, making it easier for users to choose a restaurant that fits their needs.",
         "images": [
           "images/portfolio/platemate/eat.png"
         ],
@@ -55,7 +55,7 @@
       },
       {
         "title": "CarCar",
-        "description": "Used PostgreSQL, Django, React, and JSX to develop a web application for managing car services, sales, and inventory. The application includes the implementation and deployment of a microservice that allows users to create and view services. The microservices were integrated with RESTful APIs, which were then utilized in the development of a React-based front-end for the application.",
+        "description": "Developed to manage various aspects of an automobile dealership including inventory, service center, and sales. It allows users to create, view, and delete services based on the automobile. Additionally, the application has a feature of VIP status, which is implemented for automobiles that have been serviced more than once.",
         "images": [
           "images/portfolio/car-car/car.png"
         ],
@@ -94,7 +94,7 @@
       },
       {
         "title": "Task Manager",
-        "description": "Built a functional web application using Python and Django that allows for CRUD operations on data stored in a SQL database. The application features user-centered components such as login, logout, and signup, all implemented using HTML templates, views, models, and apps. The design of the application was also enhanced using HTML5 and CSS to provide an improved user experience.",
+        "description": "Designed to help users manage their tasks efficiently. It has user-focused features such as login, logout, and signup that make it easy for users to access and utilize the app. With this app, users can edit, create, and delete certain tasks, making it more organized to manage what needs to be done.",
         "images": [
           "images/portfolio/task-manager/to-do-list.png"
         ],
