@@ -4,6 +4,11 @@
       "titles": ["Full-Stack Software Engineer", "Loves UX/UI Designing"],
       "social": [
         {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/natalientang/",
+          "class": "fab fa-linkedin"
+        },
+        {
           "name": "github",
           "url": "https://github.com/natalientang",
           "class": "fab fa-github"
