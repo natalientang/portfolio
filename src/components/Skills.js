@@ -7,9 +7,9 @@ class Skills extends Component {
       var skills = this.props.sharedSkills;
       var languageSkills = skills.languages.map(function (skill, i) {
         return (
-          <li className="list-inline-item mx-3 mb-3" key={i}>
+          <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile mb-5">
                 <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center skills-styles"
@@ -25,9 +25,9 @@ class Skills extends Component {
       });
       var frontendSkills = skills.front_end.map(function (skill, i) {
         return (
-          <li className="list-inline-item mx-3 mb-3" key={i}>
+          <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile mb-5">
                 <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center skills-styles"
@@ -43,9 +43,9 @@ class Skills extends Component {
       });
       var backendSkills = skills.back_end.map(function (skill, i) {
         return (
-          <li className="list-inline-item mx-3 mb-3" key={i}>
+          <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile mb-5">
                 <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center skills-styles"
@@ -61,9 +61,9 @@ class Skills extends Component {
       });
       var toolSkills = skills.tools.map(function (skill, i) {
         return (
-          <li className="list-inline-item mx-3 mb-3" key={i}>
+          <li className="list-inline-item mx-3" key={i}>
             <span>
-              <div className="text-center skills-tile">
+              <div className="text-center skills-tile mb-5">
                 <i className={skill.class} style={{ fontSize: "220%" }}>
                   <p
                     className="text-center skills-styles"
@@ -87,19 +87,19 @@ class Skills extends Component {
             <span>Skills</span>
           </h1>
           </div>
-          <div className="col-md-12 text-center">
+          <div className="text-center">
             <h2 className="skill-category-title">Languages</h2>
             <ul className="list-inline mx-auto skill-icon">{languageSkills}</ul>
           </div>
-          <div className="col-md-12 text-center">
+          <div className="text-center">
             <h2 className="skill-category-title">Frontend</h2>
             <ul className="list-inline mx-auto skill-icon">{frontendSkills}</ul>
           </div>
-          <div className="col-md-12 text-center">
+          <div className="text-center">
             <h2 className="skill-category-title">Backend</h2>
             <ul className="list-inline mx-auto skill-icon">{backendSkills}</ul>
           </div>
-          <div className="col-md-12 text-center">
+          <div className="text-center">
             <h2 className="skill-category-title">Tools</h2>
             <ul className="list-inline mx-auto skill-icon">{toolSkills}</ul>
           </div>
