@@ -447,6 +447,7 @@ header h1 {
 	position: relative;
 }
 
+
 footer {
 	background: #524E4A;
 	min-height: 100px;
@@ -499,10 +500,11 @@ footer a:focus {
 	background-color: white;
 }
 
-[data-theme="dark"] {
-	transition: background-color 0.5s ease;
-  }
+h2 {
+	color: black;
+}
 
-[data-theme="light"] {
-transition: background-color 0.5s ease;
+.skill-category-title {
+    font: 30px/30px 'Polaroid', sans-serif;
+    color: #514E49;
 }

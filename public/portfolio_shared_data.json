@@ -1,104 +1,110 @@
 {
-    "basic_info": {
-      "name": "Natalie Tang",
-      "titles": ["Full-Stack Software Engineer", "Loves UX/UI Designing"],
-      "social": [
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/natalientang/",
-          "class": "fab fa-linkedin"
-        },
-        {
-          "name": "github",
-          "url": "https://github.com/natalientang",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "email",
-          "url": "mailto:natalietang77@gmail.com",
-          "class": "fas fa-envelope"
-          }
-      ],
-      "image": "profile.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original"
-        },
-        {
-          "name": "Python",
-          "class": "devicon-python-plain"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain"
-        },
-        {
-          "name": "React",
-          "class": "devicon-react-original"
-        },
-        {
-          "name": "Redux",
-          "class": "devicon-redux-original"
-        },
-        {
-          "name": "Tailwind",
-          "class": "devicon-tailwindcss-plain"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain"
-        },
-        {
-          "name": "Django",
-          "class": "devicon-django-plain"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain"
-        },
-        {
-          "name": "SQLite3",
-          "class": "devicon-sqlite-plain"
-        },
-        {
-          "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain"
-        },
-        {
-          "name": "FastAPI",
-          "class": "devicon-fastapi-plain"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain"
-        },
-        {
-          "name": "Docker",
-          "class": "devicon-docker-plain"
-        },
-        {
-          "name": "Figma",
-          "class": "devicon-figma-plain"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-original"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Natalie Tang",
+    "titles": ["Full-Stack Software Engineer", "Loves UX/UI Designing"],
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/natalientang/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/natalientang",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "email",
+        "url": "mailto:natalietang77@gmail.com",
+        "class": "fas fa-envelope"
+      }
+    ],
+    "image": "profile.jpg"
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain"
+      }
+    ],
+    "front_end": [
+      {
+        "name": "React",
+        "class": "devicon-react-original"
+      },
+      {
+        "name": "Redux",
+        "class": "devicon-redux-original"
+      },
+      {
+        "name": "Tailwind",
+        "class": "devicon-tailwindcss-plain"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain"
+      }
+    ],
+    "back_end": [
+      {
+        "name": "Django",
+        "class": "devicon-django-plain"
+      },
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain"
+      },
+      {
+        "name": "SQLite3",
+        "class": "devicon-sqlite-plain"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain"
+      },
+      {
+        "name": "FastAPI",
+        "class": "devicon-fastapi-plain"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "class": "devicon-git-plain"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-original"
+      }
+    ]
   }
+}
