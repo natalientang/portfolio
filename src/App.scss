@@ -482,3 +482,27 @@ footer a:focus {
 	transform: rotate(-133deg);
 	z-index: 1;
   }
+
+#home {
+	padding-top: 0;
+	padding-bottom: fixed;
+}
+
+.nav-link {
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	transition: color 0.3s ease-in-out;
+	margin-right: 5px;
+}
+
+.navbar {
+	background-color: white;
+}
+
+[data-theme="dark"] {
+	transition: background-color 0.5s ease;
+  }
+
+[data-theme="light"] {
+transition: background-color 0.5s ease;
+}
