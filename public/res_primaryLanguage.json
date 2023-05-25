@@ -126,6 +126,16 @@
     ],
     "experience": [
       {
+        "company": "Wiley Edge",
+        "title": "Junior Java Developer Trainee",
+        "years": "May 2023 - Present",
+        "icon": "fas fa-code",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
         "company": "Main Dentistry",
         "title": "Registered Dental Assistant (RDA)",
         "years": "Jun 2022 - Jul 2022",

@@ -42,6 +42,10 @@
       {
         "name": "JavaScript",
         "class": "devicon-javascript-plain"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain"
       }
     ],
     "front_end": [
