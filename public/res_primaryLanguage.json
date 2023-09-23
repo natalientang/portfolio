@@ -126,30 +126,31 @@
     ],
     "experience": [
       {
+        "company": "JP Morgan Chase & Co.",
+        "title": "Software Engineer I",
+        "years": "October 2023 - Present",
+        "icon": "fas fa-university",
+        "mainTech": [
+        ],
+        "technologies": [
+        ]
+      },
+      {
         "company": "Wiley Edge",
         "title": "Junior Java Developer Trainee",
-        "years": "May 2023 - Present",
+        "years": "May 2023 - July 2023",
         "icon": "fas fa-code",
         "mainTech": [
         ],
         "technologies": [
         ]
       },
-      {
-        "company": "Main Dentistry",
-        "title": "Registered Dental Assistant (RDA)",
-        "years": "Jun 2022 - Jul 2022",
-        "icon": "fas fa-tooth",
-        "mainTech": [
-        ],
-        "technologies": [
-        ]
-      },
+
       {
         "company": "Infinity Dental",
         "title": "Front Office Receptionist, RDA",
         "years": "Dec 2020 - Jan 2022",
-        "icon": "fas fa-toothbrush",
+        "icon": "fas fa-tooth",
         "mainTech": [
         ],
         "technologies": [
